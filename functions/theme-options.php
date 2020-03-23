@@ -81,15 +81,6 @@ Kirki::add_section( 'styling', array(
 /*  Add Fields
 /* ------------------------------------ */
 
-// General: Responsive Layout
-Kirki::add_field( 'typesolid_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'responsive',
-	'label'			=> esc_html__( 'Responsive Layout', 'typesolid' ),
-	'description'	=> esc_html__( 'Mobile and tablet optimizations (responsive.css)', 'typesolid' ),
-	'section'		=> 'general',
-	'default'		=> 'on',
-) );
 // General: Mobile Sidebar
 Kirki::add_field( 'typesolid_theme', array(
 	'type'			=> 'switch',
