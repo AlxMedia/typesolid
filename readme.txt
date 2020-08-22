@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.5
-Version: 1.0.4
+Version: 1.0.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -70,6 +70,10 @@ Content images
 1. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.5 - 2020-08-22 =
+* Improved a11y
+* Added new menu
 
 = 1.0.4 - 2020-08-11 =
 * Updated to Kirki 3.1.5

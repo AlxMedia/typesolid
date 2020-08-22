@@ -69,9 +69,8 @@
 	
 	#header .social-links { z-index: 103; border-left: 0; margin: 12px 0 0 0; }
 	
-	.toggle-search { background: none; border: 0; position: absolute; right: 46px; top: 70px; z-index: 103; color: #333; margin: 0; padding: 12px; }
-	.toggle-search:hover,
-	.toggle-search.active { background: transparent; color: #333; }
+	.toggle-search { background: none; border: 0; position: absolute; right: 56px; top: 72px; z-index: 103; color: #333; margin: 0; padding: 12px; }
+	.toggle-search.active { background: transparent; color: #333; padding: 14px 12px; }
 	.search-expand { top: auto; left: 0; bottom: -36px; width: 100%; padding: 0; }
 	.search-expand-inner { padding: 0; width: 100%; }
 	.search-expand .themeform input { border-radius: 0; }
