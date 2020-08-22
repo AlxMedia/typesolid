@@ -26,12 +26,6 @@ h1, h2, h3, h4, h5, h6,
 #profile-description a,
 .entry-list .entry-title a,
 #footer-bottom a:hover,
-#nav-header .nav > li.current_page_item > a, 
-#nav-header .nav > li.current-menu-item > a,
-#nav-header .nav > li.current-menu-ancestor > a,
-#nav-header .nav > li.current-post-parent > a,
-#nav-header .nav > li > a:hover, 
-#nav-header .nav > li:hover > a,
 .author-bio .bio-name,
 .related-title a,
 .comment-tabs li.active a,
@@ -145,22 +139,6 @@ body,
 
 @media only screen and (max-width: 719px) {
 	.site-title,
-	#nav-header.nav-container,
-	#nav-header .nav li a { border-color: rgba(255,255,255,0.1); }
-	#nav-header .nav li a { color: rgba(255,255,255,0.6); }
-	#nav-header .nav li a:hover,
-	#nav-header .nav li > a:hover,
-	#nav-header .nav li.current_page_item > a, 
-	#nav-header .nav li.current-menu-item > a,
-	#nav-header .nav li.current-post-parent > a { color: rgba(255,255,255,0.9); }
-	#nav-mobile.nav-container,
-	#nav-mobile .nav li a { border-color: rgba(255,255,255,0.1); }
-	#nav-mobile .nav li a { color: rgba(255,255,255,0.6); }
-	#nav-mobile .nav li a:hover,
-	#nav-mobile .nav li > a:hover,
-	#nav-mobile .nav li.current_page_item > a, 
-	#nav-mobile .nav li.current-menu-item > a,
-	#nav-mobile .nav li.current-post-parent > a { color: rgba(255,255,255,0.9); }
 	.post-nav li.previous { border-color: rgba(255,255,255,0.1); }
 }
 
@@ -270,3 +248,34 @@ body,
 .alx-tab .tab-item-title a, 
 .alx-tab .tab-item-comment a, 
 .alx-posts .post-item-title a { color: rgba(255,255,255,0.7); }
+
+
+/* ------------------------------------------------------------------------- *
+ *  Navigation
+/* ------------------------------------------------------------------------- */
+.nav-menu:not(.mobile) a { color: rgba(255,255,255,0.6); }
+.nav-menu:not(.mobile) a:hover { color: rgba(255,255,255,0.75); }
+.nav-menu:not(.mobile) li.current_page_item > span > a, 
+.nav-menu:not(.mobile) li.current-menu-item > span > a, 
+.nav-menu:not(.mobile) li.current-menu-ancestor > span > a, 
+.nav-menu:not(.mobile) li.current-post-parent > span > a { color: rgba(255,255,255,0.9); }
+.nav-menu:not(.mobile) button .svg-icon { fill: rgba(255,255,255,0.3); }
+.nav-menu:not(.mobile) button.active { background: rgba(255,255,255,0.2); }  
+
+
+.menu-toggle-icon span { background: #fff; }
+.nav-menu .svg-icon { fill: #fff; }
+.nav-menu.mobile { background: transparent; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.nav-menu.mobile button.active .svg-icon { fill: #fff; }
+.nav-menu.mobile ul ul { background: rgba(255,255,255,0.08); }
+.nav-menu.mobile ul li .menu-item-wrapper,
+.nav-menu.mobile ul ul li .menu-item-wrapper { border-bottom: 1px solid rgba(255,255,255,0.07); }
+.nav-menu.mobile > div > ul > li:first-child .menu-item-wrapper { border-top: 1px solid rgba(255,255,255,0.07); }
+.nav-menu.mobile ul li a { color: #fff; }
+.nav-menu.mobile ul button,
+.nav-menu.mobile ul ul button { border-left: 1px solid rgba(255,255,255,0.07); }
+
+.toggle-search .svg-icon { fill: #fff; }
+
+#header .themeform.searchform div:after { color: rgba(0,0,0,0.7); }
+#header .themeform.searchform div input { color: #777; }
