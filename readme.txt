@@ -70,7 +70,7 @@ Content images
 
 == Changelog ==
 
-= 1.0.5 - 2020-08-24 =
+= 1.0.5 - 2020-08-28 =
 * Improved a11y
 * Added new menu
 
