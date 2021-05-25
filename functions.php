@@ -97,8 +97,10 @@ add_action( 'after_setup_theme', 'typesolid_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-add_action( 'wp', function() {
+if ( ! class_exists( '\Typesolid\Nav' ) ) {
 	require_once 'functions/nav.php';
+}
+add_action( 'wp', function() {
 	$nav = new \Typesolid\Nav();
 	$nav->enqueue(
 		[
