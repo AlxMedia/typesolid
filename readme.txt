@@ -75,6 +75,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.8 - 2021-05-26 =
+* Fixed premium theme updater version number issue
+
 = 1.0.7 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
 * Updated language files
