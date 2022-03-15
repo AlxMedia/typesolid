@@ -75,8 +75,8 @@ Content images
 
 == Changelog ==
 
-= 1.1.2 - 2022-01-24 =
-* Updated to Kirki 4.0
+= 1.1.2 - 2022-03-15 =
+* Updated to Kirki 4.0.22
 
 = 1.1.1 - 2021-07-23 =
 * Disabled support for widgets block editor
