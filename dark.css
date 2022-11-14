@@ -279,3 +279,10 @@ body,
 
 #header .themeform.searchform div:after { color: rgba(0,0,0,0.7); }
 #header .themeform.searchform div input { color: #777; }
+
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { background: rgba(255,255,255,0.06); }
+
+.toggle-search.active #svg-close,
+.toggle-search:focus #svg-search { fill: rgba(255,255,255,0.5); }
+.toggle-search:focus #svg-close { fill: rgba(255,255,255,0.8); }

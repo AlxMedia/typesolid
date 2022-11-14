@@ -1,14 +1,14 @@
 === Typesolid ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 6.0
+Tested up to: 6.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
-Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, news, entertainment, footer-widgets, wide-blocks
 
 == Description ==
 
-Typesolid is a flexible blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between light and dark theme or to set your own color, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Typesolid
+Typesolid is a flexible blog theme with plenty of options. It is optimized for all devices. You can choose between light and dark theme or to set your own color, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Typesolid
 
 == Installation ==
 
@@ -74,6 +74,9 @@ Content images
 1. https://stocksnap.io/photo/13LKG0AGI0 - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.1.4 - 2022-11-14 =
+* Changed theme from premium to free
 
 = 1.1.3 - 2022-05-30 =
 * Fixed ol and ul box-sizing content-box styling for WP 6.0
