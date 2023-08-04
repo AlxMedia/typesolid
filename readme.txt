@@ -75,6 +75,9 @@ Content images
 
 == Changelog ==
 
+= 1.1.5 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.1.4 - 2022-11-14 =
 * Changed theme from premium to free
 
