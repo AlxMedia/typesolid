@@ -66,7 +66,7 @@
 					
 					<?php if ( get_theme_mod( 'credit', 'on' ) == 'on' ): ?>
 					<div id="credit">
-						<p><?php esc_html_e('Powered by','typesolid'); ?> <a href="http://wordpress.org" rel="nofollow">WordPress</a>. <?php esc_html_e('Theme by','typesolid'); ?> <a href="http://alx.media" rel="nofollow">Alx</a>.</p>
+						<p><?php esc_html_e('Powered by','typesolid'); ?> <a href="http://wordpress.org" rel="nofollow">WordPress</a>. <?php esc_html_e('Theme by','typesolid'); ?> <a href="https://agnarson.com" rel="nofollow">Alx</a>.</p>
 					</div><!--/#credit-->
 					<?php endif; ?>
 					

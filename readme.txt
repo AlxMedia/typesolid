@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors,
 
 == Description ==
 
-Typesolid is a flexible blog theme with plenty of options. It is optimized for all devices. You can choose between light and dark theme or to set your own color, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Typesolid
+Typesolid is a flexible blog theme with plenty of options. It is optimized for all devices. You can choose between light and dark theme or to set your own color, widget sidebar to the left or right - or no sidebar at all. Demo: https://demo.agnarson.com/?theme=Typesolid
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Typesolid is a flexible blog theme with plenty of options. It is optimized for a
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
